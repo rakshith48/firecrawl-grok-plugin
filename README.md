@@ -12,7 +12,7 @@ This plugin bundles Firecrawl's hosted [MCP server](https://github.com/firecrawl
 - **Scrape** - Extract clean markdown content from any webpage, with JavaScript rendering
 - **Map** - Discover all URLs on a website
 - **Crawl** - Extract content from entire websites
-- **Browser** - Launch cloud browser sessions and execute Playwright code remotely
+- **Interact** - Drive a live browser session on a scraped page — click, fill forms, navigate flows, handle pagination/infinite scroll, and log in
 
 All operations include automatic JavaScript rendering, anti-bot handling, and proxy rotation.
 
@@ -72,7 +72,7 @@ By default the plugin uses the bundled hosted MCP. The Firecrawl CLI is only nee
 | `firecrawl search "query"` | Search the web (supports `--sources`, `--scrape`, `--tbs` for time filters) |
 | `firecrawl scrape <url>` | Scrape a single page to markdown |
 | `firecrawl map <url>` | Discover all URLs on a site |
-| `firecrawl browser launch/execute/list/close` | Manage cloud browser sessions and execute Playwright code |
+| `firecrawl interact` | Interact with a scraped page — click, fill forms, navigate (operates on a scrape ID) |
 | `firecrawl --status` | Check auth status, concurrency, and credits |
 
 ### Output Files
